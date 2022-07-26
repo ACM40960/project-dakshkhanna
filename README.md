@@ -149,7 +149,7 @@ For you to work on Jupyter Notebook, you need to download Anaconda-Navigator:
 
 The Jupyter Notebook is an open source web application that you can use to create and share documents that contain live code, equations, visualizations, and text. Jupyter Notebook is maintained by the people at Project Jupyter.
 
-## Installation Guide##
+## Installation Guide ##
 
 User must first install Anaconda according to their system requirements from [Anaconda Installation](https://www.anaconda.com/products/distribution). The instructions to install can be found on [Installation Guide](https://docs.anaconda.com/anaconda/install/#). 
 
@@ -205,7 +205,15 @@ When the block is selected, either press ``` Shift + Enter ``` or you can press 
 
 Apart from the package installation, note that some of the code cells in this notebook take a relatively long time to execute. In each case these cells will be preceded with a Comment saying: 
 
+```diff
 -WARNING! Running the following cell may take a very long time...
+```
+
+## Dataset ##
+
+The dataset consists of 1376 images with 194 images containing images of people wearing masks and 194 images with people without masks and has been downloaded from [Face Mask Dataset](https://data-flair.training/blogs/download-face-mask-data/)
+
+You can either download the dataset from [here](https://data-flair.training/blogs/download-face-mask-data/) or from the Repository.
 
 ## Installing packages ##
 
@@ -226,3 +234,11 @@ import datetime
 import tensorflow as tf
 import matplotlib.pyplot as plt
 ```
+
+## Results ##
+After successfully creating a model trained by the dataset, we were able to get 97% accuracy in detecting if a person is wearing a mask or not in real-time.
+As the image below shows, You should be able to detect whether a person in frame is wearing a face mask or not in real-time environment using your web-camera. (As you can see the time-stamp mentioned on the frame as well)
+
+![Mask-Collage](https://user-images.githubusercontent.com/105723324/181061983-fe28304e-04f9-485c-9df7-8f6b8c22cd9a.jpg)
+
+
