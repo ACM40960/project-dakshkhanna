@@ -240,7 +240,7 @@ import matplotlib.pyplot as plt
 ```
 
 
-*Note : For the haarcascade_frontalface_default.xml, if your system doesn't have it installed post the installation of OpenCV, you can either download it from the repository or [here](https://github.com/kipr/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml) *
+*Note : For the haarcascade_frontalface_default.xml, if your system doesn't have it installed post the installation of OpenCV, you can either download it from the repository or [here](https://github.com/kipr/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml)*
 
 
 ## Results ##
