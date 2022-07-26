@@ -1,5 +1,6 @@
 # README.md
-project-dakshkhanna created by GitHub Classroom
+Face-Mask Detection System
+
 The aim of this project is to develop a Face Mask Detection/Recognition System 
 that, amidst the global pandemic, helps in  detecting whether a person is wearing a 
 face mask or not that can help in multiple ways including, entrance to any hospital, 
