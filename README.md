@@ -72,9 +72,6 @@ The Disable path length limit option will not affect any other system settings. 
 
 ![version check](https://user-images.githubusercontent.com/105723324/181026343-235c2718-6e03-412a-955d-61d91926c64b.png)
 
-
-I am using Mac here,
-
 **Step 4: Verify Pip Was Installed**
 
 If you opted to install an older version of Python, it is possible that it did not come with Pip preinstalled. Pip is a powerful package management system for Python software packages. Thus, make sure that you have it installed.
@@ -87,6 +84,7 @@ To verify whether Pip was installed:
 
 ![pip check](https://user-images.githubusercontent.com/105723324/181026361-64100eee-7706-478c-8b41-f7c3c78b6b34.png)
 
+I am using Mac here,
 
 **For Mac :**
 
@@ -240,6 +238,10 @@ import datetime
 import tensorflow as tf
 import matplotlib.pyplot as plt
 ```
+
+
+*Note : For the haarcascade_frontalface_default.xml, if your system doesn't have it installed post the installation of OpenCV, you can either download it from the repository or [here](https://github.com/kipr/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml) *
+
 
 ## Results ##
 After successfully creating a model trained by the dataset, we were able to get 97% accuracy in detecting if a person is wearing a mask or not in real-time.
