@@ -162,8 +162,10 @@ After the installation, open Anaconda Navigator and click Launch on the Jupyter 
 
 ## Running the code ##
 
+The following section shows the steps to run the code/project on your respective systems.
 
-## Method 1 ##
+## Steps ##
+
 0. Open the terminal in your respective operating system.
 
 1. Clone the repository 
@@ -181,6 +183,10 @@ Or
 2. Finally, return to the JupyterLab window launched previously, click on the folder icon in the top left corner of the window, and navigate to the newly created project folder. Then double-click on the ACM40960_21200399.ipynb or Click View on file located in this folder to open the Jupyter Notebook (highlighted in the folder navigation pane in the image below).
 
 <img width="1152" alt="Screenshot 2022-07-26 at 16 50 10" src="https://user-images.githubusercontent.com/105723324/181052433-fbe8e9ae-470e-40af-b5cb-be3c3147525f.png">
+
+```diff
+- NOTE : MAKE SURE TO STORE AND LOAD EVERYTHING IN AND FROM THE SAME DIRECTORY, OTHERWISE THE PROGRAM WILL SHOOT AN ERROR
+```
 
 # Navigating the Jupyter Notebook #
 
@@ -241,4 +247,8 @@ As the image below shows, You should be able to detect whether a person in frame
 
 ![Mask-Collage](https://user-images.githubusercontent.com/105723324/181061983-fe28304e-04f9-485c-9df7-8f6b8c22cd9a.jpg)
 
+## Conclusion ##
 
+In this work, a deep learning-based approach for detecting masks over faces in public places to curtail the community spread of Coronavirus is presented. The proposed technique efficiently handles occlusions in dense situations by making use of an ensemble of single and two-stage detectors at the pre-processing level. The ensemble approach not only helps in achieving high accuracy but also improves detection speed consider- ably. Furthermore, the application of transfer learning on pre-trained models with extensive experimentation over an unbiased dataset resulted in a highly robust and low-cost system. The identity detection of faces, violating the mask norms further, increases the utility of the system for public benefits.
+
+Finally, the work opens interesting future directions for researchers. Firstly, the proposed technique can be integrated into any high-resolution video surveillance devices and not limited to mask detection only. Secondly, the model can be extended to detect facial landmarks with a facemask for biometric purposes.
