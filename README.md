@@ -27,7 +27,7 @@ python -V
 ```
 If Python is installed, it will give you the version of the python installed like this:
 
-![image](https://user-images.githubusercontent.com/105723324/181009963-4a07d245-3343-4708-82f2-a219fda88b93.png)
+![version check](https://user-images.githubusercontent.com/105723324/181034088-c73941b8-8077-4eb2-aa3e-97e6c6e6db03.png)
 
 Otherwise, We will first install Python by:
 
