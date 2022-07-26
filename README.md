@@ -178,10 +178,9 @@ Or
 
 <img width="1440" alt="Screenshot 2022-07-26 at 16 18 26" src="https://user-images.githubusercontent.com/105723324/181045370-47600fd6-fbf4-43ce-9a12-84c8d3b13606.png">
 
-3. Finally, return to the JupyterLab window launched previously, click on the folder icon in the top left corner of the window, and navigate to the newly created project folder. Then double-click on the ACM40960_21200399.ipynb file located in this folder to open the Jupyter Notebook (highlighted in the folder navigation pane in the image below).
+2. Finally, return to the JupyterLab window launched previously, click on the folder icon in the top left corner of the window, and navigate to the newly created project folder. Then double-click on the ACM40960_21200399.ipynb or Click View on file located in this folder to open the Jupyter Notebook (highlighted in the folder navigation pane in the image below).
 
-3. Select the project folder and double click on the ACM40960_21200399.ipynb file to open it in Jupyter Notebook.
-
+<img width="1152" alt="Screenshot 2022-07-26 at 16 50 10" src="https://user-images.githubusercontent.com/105723324/181052433-fbe8e9ae-470e-40af-b5cb-be3c3147525f.png">
 
 # Navigating the Jupyter Notebook #
 
@@ -202,6 +201,28 @@ When the block is selected, either press ``` Shift + Enter ``` or you can press 
 
 <img width="1146" alt="Screenshot 2022-07-26 at 16 39 58" src="https://user-images.githubusercontent.com/105723324/181050288-7250587b-0f86-4d62-b6a0-f580a989a3fe.png">
 
+## Long-running code cells ##
 
+Apart from the package installation, note that some of the code cells in this notebook take a relatively long time to execute. In each case these cells will be preceded with a Comment saying: 
 
+-WARNING! Running the following cell may take a very long time...
 
+## Installing packages ##
+
+The project requires a lot of packages that takes time to install and load and are not installed in basic download/installation of python.
+
+You can directly download the packages from the first code block of the project that talks about importing the packages. 
+
+```python
+import numpy as np
+import keras
+import keras.backend as k
+from keras.layers import Conv2D,MaxPooling2D,SpatialDropout2D,Flatten,Dropout,Dense
+from keras.models import Sequential,load_model
+from keras.optimizers import Adam
+from keras.preprocessing import image
+import cv2
+import datetime
+import tensorflow as tf
+import matplotlib.pyplot as plt
+```
