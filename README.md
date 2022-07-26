@@ -149,13 +149,59 @@ For you to work on Jupyter Notebook, you need to download Anaconda-Navigator:
 
 The Jupyter Notebook is an open source web application that you can use to create and share documents that contain live code, equations, visualizations, and text. Jupyter Notebook is maintained by the people at Project Jupyter.
 
-User must first install Anaconda according to their system requirements from [Anaconda Iinstallation](https://www.anaconda.com/products/distribution). The instructions to install can be found on [Installation Guide](https://docs.anaconda.com/anaconda/install/#). 
+## Installation Guide##
+
+User must first install Anaconda according to their system requirements from [Anaconda Installation](https://www.anaconda.com/products/distribution). The instructions to install can be found on [Installation Guide](https://docs.anaconda.com/anaconda/install/#). 
 
 After the installation, open Anaconda Navigator and click Launch on the Jupyter Notebook application.
 
 <img width="1439" alt="Screenshot 2022-07-26 at 15 27 02" src="https://user-images.githubusercontent.com/105723324/181032639-9814bb0f-67c6-4e2b-b10e-879d717abefa.png">
 
 *Note that Jupyter python script as an extension of .ipynb unlike .py for other python scripts. So the user should open the script using Jupyter Notebook.*
+
+
+## Running the code ##
+
+
+## Method 1 ##
+0. Open the terminal in your respective operating system.
+
+1. Clone the repository 
+
+```python 
+git clone https://github.com/ACM40960/project-dakshkhanna 
+```
+
+Or
+
+1. Download the Zip folder (Master)
+
+<img width="1440" alt="Screenshot 2022-07-26 at 16 18 26" src="https://user-images.githubusercontent.com/105723324/181045370-47600fd6-fbf4-43ce-9a12-84c8d3b13606.png">
+
+3. Finally, return to the JupyterLab window launched previously, click on the folder icon in the top left corner of the window, and navigate to the newly created project folder. Then double-click on the ACM40960_21200399.ipynb file located in this folder to open the Jupyter Notebook (highlighted in the folder navigation pane in the image below).
+
+3. Select the project folder and double click on the ACM40960_21200399.ipynb file to open it in Jupyter Notebook.
+
+
+# Navigating the Jupyter Notebook #
+
+## Executing Code Cells ##
+
+Now that you have opened the Jupyter Notebook, you can run each chunk of code sequentially.
+
+Just to avoid any errors, it is highly recommended to work on the code chunks in the order they are in, otherwise, the project will lead to errors. 
+
+```diff
+- Not running the code sequentially will result in error and you won't get the desired output.
+```
+To execute a code block, ensure it is selected by clicking on the space on the left hand side of the block (a narrow blue bar will be displayed nex tto the block when it is selected)
+
+<img width="1112" alt="Screenshot 2022-07-26 at 16 36 22" src="https://user-images.githubusercontent.com/105723324/181049101-8c171eb6-3784-45d2-8e36-3972633ff063.png">
+
+When the block is selected, either press ``` Shift + Enter ``` or you can press <img width="58" alt="Screenshot 2022-07-26 at 16 41 11" src="https://user-images.githubusercontent.com/105723324/181049931-b24fcb07-5612-401f-b1c0-d670c5b70b13.png"> this run button on the navigation pane on the jupyter notebook page.
+
+<img width="1146" alt="Screenshot 2022-07-26 at 16 39 58" src="https://user-images.githubusercontent.com/105723324/181050288-7250587b-0f86-4d62-b6a0-f580a989a3fe.png">
+
 
 
 
