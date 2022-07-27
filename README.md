@@ -244,8 +244,41 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 ```
 
+## Notes and Points to Consider : ##
 
-*Note : For the haarcascade_frontalface_default.xml, if your system doesn't have it installed post the installation of OpenCV, you can either download it from the repository or [here](https://github.com/kipr/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml)*
+1. For every step where the path is required, you should update the path as your directory where you have saved/cloned the git repository. As shown in the image below.
+
+<img width="1004" alt="Screenshot 2022-07-27 at 20 13 29" src="https://user-images.githubusercontent.com/105723324/181353498-15696b38-fac6-4ff9-9990-a5d4bac0f46b.png">
+
+For instance, as you can see, i cloned the repository on my local user's desktop, therefore the path used is :
+```python 
+face_cascade=cv2.CascadeClassifier('/Users/dakshkhanna/Desktop/project-dakshkhanna/haarcascade_frontalface_default.xml')
+```
+You are supposed to change the path for your cloned directory.
+
+2. For the haarcascade_frontalface_default.xml, if your system doesn't have it installed post the installation of OpenCV, you can either download it from the repository or [here](https://github.com/kipr/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml)
+
+3. For the ease of user, the code is designed to use in a way that you just have to change the initial path of the code so for project to run, for example, if you like to access the dataset, once you have cloned the repository, it contains the dataset, and once you update your directory to the cloned directory, jsut by changing the path, you will be able to perform any operation on the project.
+
+For instance, 
+```python 
+data_train = train_data_generator.flow_from_directory(
+        '--PATH/project-dakshkhanna/dataset/train/', #add path for your saved directory
+        target_size=(150,150),
+        batch_size=16 ,
+        class_mode='binary')
+```
+Since i have used my local user directory to clone the git repository, i am using : 
+```python
+data_train = train_data_generator.flow_from_directory(
+        '/Users/dakshkhanna/Downloads/FaceMaskDetector-master/train/',
+        target_size=(150,150),
+        batch_size=16 ,
+        class_mode='binary')
+```
+But you can simply change the --PATH to your cloned repository path.
+
+<img width="1012" alt="Screenshot 2022-07-27 at 20 22 57" src="https://user-images.githubusercontent.com/105723324/181355145-5840d64c-50c6-4559-bfe6-df4808068f43.png">
 
 
 ## Results ##
