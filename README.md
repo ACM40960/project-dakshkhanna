@@ -215,11 +215,16 @@ Apart from the package installation, note that some of the code cells in this no
 
 ## Dataset ##
 
-The dataset consists of 1376 images with 194 images containing images of people wearing masks and 194 images with people without masks and has been downloaded from [Face Mask Dataset](https://data-flair.training/blogs/download-face-mask-data/)
+The dataset consists of 1314 images with 194 images containing images of people wearing masks and 194 images with people without masks and has been downloaded from [Face Mask Dataset](https://data-flair.training/blogs/download-face-mask-data/)
 
 You can either download the dataset from [here](https://data-flair.training/blogs/download-face-mask-data/) or from the Repository.
 
 ## Installing packages ##
+
+Before installing packages, there are certain packaged that you need to download, and for that, you should run the following code one by one (one after complete installation of the first line of code) and then import the packages.
+
+<img width="1142" alt="Screenshot 2022-07-27 at 19 15 51" src="https://user-images.githubusercontent.com/105723324/181343579-d2959781-6bbe-49f6-b83d-7f0ece8cf516.png">
+
 
 The project requires a lot of packages that takes time to install and load and are not installed in basic download/installation of python.
 
